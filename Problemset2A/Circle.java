@@ -29,7 +29,10 @@ public class Circle {
     }
 
     public double circumference() {
-        double circumference = 2*Math.PI*radius;
-        return circumference; 
+        return 2* Math.PI * radius; 
+    }
+    
+    public double area() {
+        return Math.PI * radius * radius;
     }
 }    
