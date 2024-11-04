@@ -221,7 +221,7 @@ public class Review {
     while (i < review.length()) {
     
         if (review.charAt(i) == '*') {
-            // Find the end of the adjective by locating the next space
+            
             int end = i + 1;
             while (end < review.length() && review.charAt(end) != ' ') {
                 end++;
